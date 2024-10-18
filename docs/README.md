@@ -67,7 +67,6 @@ services:
 
   mysql:
     image: "mysql"
-    command: --default-authentication-plugin=mysql_native_password
     ports:
       - "3306:3306"
     volumes:
